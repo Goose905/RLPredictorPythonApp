@@ -1,0 +1,68 @@
+statistic,U_statistic,p_value
+diff_score,701188950.0,0.0
+diff_goals,715627661.0,0.0
+diff_assists,676562963.5,0.0
+diff_saves,421633699.5,1.4821498694073868e-44
+diff_shots,617181256.5,0.0
+diff_shots conceded,200124650.0,0.0
+diff_goals conceded,120117.0,0.0
+diff_goals conceded while last defender,183942550.0,0.0
+diff_shooting percentage,668491670.5,0.0
+diff_bpm,462295476.0,9.56368351223704e-08
+diff_avg boost amount,517801991.5,3.1850334423017847e-217
+diff_amount collected,475482467.0,8.177984635742615e-31
+diff_amount collected big pads,467946163.5,1.3036102871133908e-15
+diff_amount collected small pads,465316287.5,1.4134872855861542e-11
+diff_count collected big pads,480451007.0,6.455462025204596e-44
+diff_count collected small pads,471338871.5,8.567403855288692e-22
+diff_amount stolen,485621837.0,7.942606212340736e-60
+diff_amount stolen big pads,482785003.0,1.0204823230727706e-50
+diff_amount stolen small pads,473580114.5,1.8223300487700065e-26
+diff_count stolen big pads,490909453.5,1.1551888043777925e-79
+diff_count stolen small pads,477417164.5,1.269430966596954e-35
+diff_0 boost time,395928628.0,6.555014484817989e-148
+diff_100 boost time,520215847.0,4.853147380514489e-233
+diff_amount used while supersonic,451405205.0,0.8342190445611812
+diff_amount overfill total,497996732.0,1.3768030109328814e-108
+diff_amount overfill stolen,503273483.0,7.484896885775437e-134
+diff_avg speed,450707752.5,0.905306373321391
+diff_total distance,459403382.0,7.079018024940671e-05
+diff_time slow speed,458219629.5,0.0006343532961666882
+diff_percentage slow speed,455905861.5,0.019937842643429998
+diff_time boost speed,449023156.5,0.36186820715328083
+diff_percentage boost speed,443522223.0,0.00046384438654647017
+diff_time supersonic speed,451974589.0,0.6331681404523989
+diff_percentage supersonic speed,450253591.0,0.7393529873417365
+diff_time on ground,468883487.5,3.300693132015433e-17
+diff_percentage on ground,463632711.0,2.4592995535081923e-09
+diff_time low in air,424063528.5,9.976948322496623e-37
+diff_percentage low in air,419404770.0,6.789960450350132e-50
+diff_time high in air,483973957.5,1.9280574327481255e-54
+diff_percentage high in air,482769312.5,1.140602697401343e-50
+diff_time powerslide,447141079.0,0.07223942833198546
+diff_avg powerslide time,448059032.0,0.17039784011666448
+diff_count powerslide,447081694.0,0.06790402379008192
+diff_time most back,447375897.5,0.09158613067585554
+diff_percentage most back,447389791.5,0.09285035534430058
+diff_time most forward,447860401.0,0.14454879829904813
+diff_percentage most forward,448231035.0,0.19892477324540903
+diff_time in front of ball,175452934.0,0.0
+diff_percentage in front of ball,168194770.0,0.0
+diff_time behind ball,733937702.0,0.0
+diff_percentage behind ball,733726770.0,0.0
+diff_time defensive half,383012215.5,2.0897169612086949e-224
+diff_percentage defensive half,382014566.5,5.554253986179808e-231
+diff_time offensive half,522500939.5,1.57274286900782e-248
+diff_percentage offensive half,519906662.5,5.536861707619203e-231
+diff_time defensive third,379620476.0,3.759029326900826e-247
+diff_percentage defensive third,379214023.5,5.95947602097653e-250
+diff_time neutral third,508031222.5,6.414750970989466e-159
+diff_percentage neutral third,504858078.0,5.872925274553512e-142
+diff_time offensive third,519539447.5,1.4951926924324777e-228
+diff_percentage offensive third,517111730.5,8.37908589307646e-213
+diff_avg distance to ball,548682218.0,0.0
+diff_avg distance to ball has possession,590568760.0,0.0
+diff_avg distance to ball no possession,488848670.0,3.991149252274473e-71
+diff_avg distance to team mates,529452979.0,9.684707172076302e-299
+diff_demos inflicted,478385135.0,1.4295960978591937e-39
+diff_demos taken,425376005.5,9.333637451928688e-35
