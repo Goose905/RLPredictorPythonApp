@@ -1,0 +1,69 @@
+,win
+win,1.0
+diff_percentage behind ball,0.5293521753889107
+diff_time behind ball,0.5258141075376563
+diff_goals,0.5113325889926806
+diff_score,0.4722073734121991
+diff_assists,0.44964967062611905
+diff_shooting percentage,0.3899364268323097
+diff_shots,0.3215911642440935
+diff_avg distance to ball has possession,0.2643370809113291
+diff_avg distance to ball,0.18852592338929808
+diff_avg distance to team mates,0.15126242924873154
+diff_time offensive half,0.14293441254550915
+diff_time offensive third,0.13694754255741717
+diff_percentage offensive half,0.13565570471615662
+diff_100 boost time,0.13237195351999637
+diff_percentage offensive third,0.13024342009782727
+diff_avg boost amount,0.1283679317264241
+diff_time neutral third,0.11132433782200311
+diff_percentage neutral third,0.10263792947043912
+diff_amount overfill stolen,0.09959166247264131
+diff_amount overfill total,0.08793477010098265
+diff_count stolen big pads,0.07949865824356818
+diff_avg distance to ball no possession,0.07303548623845484
+diff_amount stolen,0.06978077568383582
+diff_time high in air,0.06771461179295538
+diff_percentage high in air,0.06469825701177102
+diff_amount stolen big pads,0.06380665294832975
+diff_count collected big pads,0.05773055152522779
+diff_demos inflicted,0.05664692459702163
+diff_count stolen small pads,0.05414532777777023
+diff_amount collected,0.04951324929781215
+diff_amount stolen small pads,0.04613782428863469
+diff_count collected small pads,0.04058739666254942
+diff_time on ground,0.035197785657844045
+diff_amount collected big pads,0.034450602807658354
+diff_amount collected small pads,0.028880965306165525
+diff_percentage on ground,0.023756318984687042
+diff_bpm,0.02232479672383723
+diff_total distance,0.019670003091107027
+diff_time slow speed,0.01187260174031898
+diff_percentage slow speed,0.009675872194642367
+diff_time supersonic speed,0.0035692115286231427
+diff_amount used while supersonic,0.0015180201615489226
+diff_time boost speed,-2.691472994446086e-05
+diff_percentage supersonic speed,-0.0008759218437129369
+diff_avg speed,-0.001055041471969016
+diff_percentage most forward,-0.0026300905177329046
+diff_time most back,-0.004217645764274717
+diff_time most forward,-0.004760458462464181
+diff_percentage most back,-0.006339085712424893
+diff_avg powerslide time,-0.007530292012307113
+diff_count powerslide,-0.009550797380397793
+diff_time powerslide,-0.01286593169565007
+diff_percentage boost speed,-0.01400679038235269
+diff_time low in air,-0.05044991411566146
+diff_demos taken,-0.05176691657182121
+diff_saves,-0.05776740741234604
+diff_percentage low in air,-0.060110264593367525
+diff_0 boost time,-0.10258144766429425
+diff_time defensive half,-0.13562583007124754
+diff_percentage defensive half,-0.13565561126042125
+diff_percentage defensive third,-0.13931121465978802
+diff_time defensive third,-0.14076471694011694
+diff_shots conceded,-0.47489135932286763
+diff_time in front of ball,-0.513311234746092
+diff_goals conceded while last defender,-0.5161215866140264
+diff_percentage in front of ball,-0.5293522721407073
+diff_goals conceded,-0.8264437144511602
