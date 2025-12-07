@@ -70,7 +70,7 @@ def build_feature_vector(playersData, matchSummary):
         playerAverages = {}
         try:
             playerAverages = average_player_stats_over_time(playersData, playerName, "2021-10-01", matchDate)
-        except ValueError:
+        except (KeyError, ZeroDivisionError):
             playerAverages = overallAverageStats
         for key in playerAverages.keys():
             if(j <= 3):
