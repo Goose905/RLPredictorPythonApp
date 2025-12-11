@@ -130,7 +130,11 @@
                 console.log('Success:', data);
                 resultsDiv = document.getElementById("results");
                 matchNumber = resultsDiv.children.length - 1;
+                matchDate = formData.get('matchDate');
+                teamOnePlayers = formData.getAll('TeamOnePlayers').map(player => encodeURIComponent(player)).join(', ');
+                teamTwoPlayers = formData.getAll('TeamTwoPlayers').map(player => encodeURIComponent(player)).join(', ');
                 resultsDiv.innerHTML += `<div><h3>Match ${matchNumber} Result:</h3>
+                                         <p><a href="/match?date=${matchDate}&team1=${teamOnePlayers}&team2=${teamTwoPlayers}" target="_blank">View Match Details</a></p>
                                          <p>${formData.getAll('TeamOnePlayers').join(', ')} vs ${formData.getAll('TeamTwoPlayers').join(', ')}</p>
                                          <p>Predicted Winner: ${data.predicted_winner}</p><hr></div>`;
             })

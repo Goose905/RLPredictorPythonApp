@@ -1,4 +1,5 @@
 from flask import Flask, render_template, jsonify, request
+import urllib.parse
 import xgboost as xgb
 from datetime import date
 import csv
@@ -145,3 +146,19 @@ def predict():
 def get_players():
     players_list = sorted(list(playerData.keys()))
     return jsonify(players_list)
+
+@app.route('/match', methods=['GET'])
+def get_player_stats():
+    match_date = request.args.get('date')
+    team1_players = [urllib.parse.unquote(player) for player in request.args.get('team1').split(',')]
+    team2_players = [urllib.parse.unquote(player) for player in request.args.get('team2').split(',')]
+    players = []
+    overall_stats = get_overall_averages_over_time(playerData, "2021-10-01", match_date)
+    for player in team1_players + team2_players:
+        try:
+            player_stats = average_player_stats_over_time(playerData, player, "2021-10-01", match_date)
+            players.append({"name": player, "stats": list(player_stats.values())})
+        except (KeyError, ZeroDivisionError):
+            player_stats = overall_stats
+            players.append({"name": player, "stats": list(player_stats.values())})
+    return render_template('matchSummary.html', players=players)

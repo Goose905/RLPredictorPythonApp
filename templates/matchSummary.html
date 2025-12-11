@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    </head>
+    <style>
+        table.ui.celled.table {
+            font-size: 0.8rem;
+            overflow-x: auto;
+            display: block;
+            white-space: nowrap;
+        }
+    </style>
+    <body>
+        <table class="ui celled table">
+            <thead>
+                <tr>
+                    <th>player name</th>
+                    <th>score</th>
+                    <th>goals</th>
+                    <th>assists</th>
+                    <th>saves</th>
+                    <th>shots</th>
+                    <th>shots conceded</th>
+                    <th>goals conceded</th>
+                    <th>goals conceded while last defender</th>
+                    <th>shooting percentage</th>
+                    <th>bpm</th>
+                    <th>avg boost amount</th>
+                    <th>amount collected</th>
+                    <th>amount collected big pads</th>
+                    <th>amount collected small pads</th>
+                    <th>count collected big pads</th>
+                    <th>count collected small pads</th>
+                    <th>amount stolen</th>
+                    <th>amount stolen big pads</th>
+                    <th>amount stolen small pads</th>
+                    <th>count stolen big pads</th>
+                    <th>count stolen small pads</th>
+                    <th>0 boost time</th>
+                    <th>100 boost time</th>
+                    <th>amount used while supersonic</th>
+                    <th>amount overfill total</th>
+                    <th>amount overfill stolen</th>
+                    <th>avg speed</th>
+                    <th>total distance</th>
+                    <th>time slow speed</th>
+                    <th>percentage slow speed</th>
+                    <th>time boost speed</th>
+                    <th>percentage boost speed</th>
+                    <th>time supersonic speed</th>
+                    <th>percentage supersonic speed</th>
+                    <th>time on ground</th>
+                    <th>percentage on ground</th>
+                    <th>time low in air</th>
+                    <th>percentage low in air</th>
+                    <th>time high in air</th>
+                    <th>percentage high in air</th>
+                    <th>time powerslide</th>
+                    <th>avg powerslide time</th>
+                    <th>count powerslide</th>
+                    <th>time most back</th>
+                    <th>percentage most back</th>
+                    <th>time most forward</th>
+                    <th>percentage most forward</th>
+                    <th>time in front of ball</th>
+                    <th>percentage in front of ball</th>
+                    <th>time behind ball</th>
+                    <th>percentage behind ball</th>
+                    <th>time defensive half</th>
+                    <th>percentage defensive half</th>
+                    <th>time offensive half</th>
+                    <th>percentage offensive half</th>
+                    <th>time defensive third</th>
+                    <th>percentage defensive third</th>
+                    <th>time middle third</th>
+                    <th>percentage middle third</th>
+                    <th>time offensive third</th>
+                    <th>percentage offensive third</th>
+                    <th>amount overfill stolen</th>
+                    <th>avg speed</th>
+                    <th>total distance</th>
+                    <th>time slow speed</th>
+                    <th>percentage slow speed</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for player in players %}
+                    <tr>
+                        <td>{{ player.name }}</td>
+                        <td>{{ player.stats[0] }}</td>
+                        <td>{{ player.stats[1] }}</td>
+                        <td>{{ player.stats[2] }}</td>
+                        <td>{{ player.stats[3] }}</td>
+                        <td>{{ player.stats[4] }}</td>
+                        <td>{{ player.stats[5] }}</td>
+                        <td>{{ player.stats[6] }}</td>
+                        <td>{{ player.stats[7] }}</td>
+                        <td>{{ player.stats[8] }}</td>
+                        <td>{{ player.stats[9] }}</td>
+                        <td>{{ player.stats[10] }}</td>
+                        <td>{{ player.stats[11] }}</td>
+                        <td>{{ player.stats[12] }}</td>
+                        <td>{{ player.stats[13] }}</td>
+                        <td>{{ player.stats[14] }}</td>
+                        <td>{{ player.stats[15] }}</td>
+                        <td>{{ player.stats[16] }}</td>
+                        <td>{{ player.stats[17] }}</td>
+                        <td>{{ player.stats[18] }}</td>
+                        <td>{{ player.stats[19] }}</td>
+                        <td>{{ player.stats[20] }}</td>
+                        <td>{{ player.stats[21] }}</td>
+                        <td>{{ player.stats[22] }}</td>
+                        <td>{{ player.stats[23] }}</td>
+                        <td>{{ player.stats[24] }}</td>
+                        <td>{{ player.stats[25] }}</td>
+                        <td>{{ player.stats[26] }}</td>
+                        <td>{{ player.stats[27] }}</td>
+                        <td>{{ player.stats[28] }}</td>
+                        <td>{{ player.stats[29] }}</td>
+                        <td>{{ player.stats[30] }}</td>
+                        <td>{{ player.stats[31] }}</td>
+                        <td>{{ player.stats[32] }}</td>
+                        <td>{{ player.stats[33] }}</td>
+                        <td>{{ player.stats[34] }}</td>
+                        <td>{{ player.stats[35] }}</td>
+                        <td>{{ player.stats[36] }}</td>
+                        <td>{{ player.stats[37] }}</td>
+                        <td>{{ player.stats[38] }}</td>
+                        <td>{{ player.stats[39] }}</td>
+                        <td>{{ player.stats[40] }}</td>
+                        <td>{{ player.stats[41] }}</td>
+                        <td>{{ player.stats[42] }}</td>
+                        <td>{{ player.stats[43] }}</td>
+                        <td>{{ player.stats[44] }}</td>
+                        <td>{{ player.stats[45] }}</td>
+                        <td>{{ player.stats[46] }}</td>
+                        <td>{{ player.stats[47] }}</td>
+                        <td>{{ player.stats[48] }}</td>
+                        <td>{{ player.stats[49] }}</td>
+                        <td>{{ player.stats[50] }}</td>
+                        <td>{{ player.stats[51] }}</td>
+                        <td>{{ player.stats[52] }}</td>
+                        <td>{{ player.stats[53] }}</td>
+                        <td>{{ player.stats[54] }}</td>
+                        <td>{{ player.stats[55] }}</td>
+                        <td>{{ player.stats[56] }}</td>
+                        <td>{{ player.stats[57] }}</td>
+                        <td>{{ player.stats[58] }}</td>
+                        <td>{{ player.stats[59] }}</td>
+                        <td>{{ player.stats[60] }}</td>
+                        <td>{{ player.stats[61] }}</td>
+                        <td>{{ player.stats[62] }}</td>
+                        <td>{{ player.stats[63] }}</td>
+                        <td>{{ player.stats[64] }}</td>
+                        <td>{{ player.stats[65] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>
